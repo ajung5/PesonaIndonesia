@@ -10,13 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack (alignment: .leading) {
-            Text("Bali")
+            Text("Borobudur Temple")
                 .font(.title)
             HStack {
-                Text("Bali Island")
+                Text("Magelang")
                     .font(.subheadline)
                 Spacer()
-                Text("Bali")
+                Text("Central Java")
                     .font(.subheadline)
             }
             
