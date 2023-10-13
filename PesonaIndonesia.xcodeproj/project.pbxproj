@@ -12,6 +12,7 @@
 		97D3176C2AD989CF0024466D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97D3176B2AD989CF0024466D /* Assets.xcassets */; };
 		97D3176F2AD989CF0024466D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97D3176E2AD989CF0024466D /* Preview Assets.xcassets */; };
 		97D317762AD98E3A0024466D /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D317752AD98E3A0024466D /* CircleImage.swift */; };
+		97D317782AD98EFF0024466D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D317772AD98EFF0024466D /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		97D3176B2AD989CF0024466D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97D3176E2AD989CF0024466D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		97D317752AD98E3A0024466D /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		97D317772AD98EFF0024466D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				97D317672AD989CC0024466D /* PesonaIndonesiaApp.swift */,
 				97D317692AD989CC0024466D /* ContentView.swift */,
 				97D317752AD98E3A0024466D /* CircleImage.swift */,
+				97D317772AD98EFF0024466D /* MapView.swift */,
 				97D3176B2AD989CF0024466D /* Assets.xcassets */,
 				97D3176D2AD989CF0024466D /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97D3176A2AD989CC0024466D /* ContentView.swift in Sources */,
+				97D317782AD98EFF0024466D /* MapView.swift in Sources */,
 				97D317682AD989CC0024466D /* PesonaIndonesiaApp.swift in Sources */,
 				97D317762AD98E3A0024466D /* CircleImage.swift in Sources */,
 			);
