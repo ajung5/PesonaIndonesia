@@ -24,5 +24,8 @@ struct TravelRow: View {
 }
 
 #Preview {
-    TravelRow(travel: travels[0])
+    Group {
+        TravelRow(travel: travels[0])
+        TravelRow(travel: travels[1])
+    }
 }
