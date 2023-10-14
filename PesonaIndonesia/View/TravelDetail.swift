@@ -8,27 +8,31 @@
 import SwiftUI
 
 struct TravelDetail: View {
+    
+    var travel: Travel
+    
     var body: some View {
-        VStack {
-            MapView()
+        ScrollView {
+            MapView(coordinate: travel.locationCoordinate)
                 .frame(height: 300)
 
 
-            CircleImage()
+            CircleImage(image: travel.image)
                 .offset(y: -130)
                 .padding(.bottom, -130)
 
 
             VStack(alignment: .leading) {
-                Text("Turtle Rock")
+                Text(travel.destination)
                     .font(.title)
 
 
                 HStack {
-                    Text("Joshua Tree National Park")
+                    Text(travel.category)
                     Spacer()
-                    Text("California")
+                    Text("\(travel.city), \(travel.province)")
                 }
+                
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
 
@@ -36,18 +40,17 @@ struct TravelDetail: View {
                 Divider()
 
 
-                Text("About Turtle Rock")
+                Text("About \(travel.destination)")
                     .font(.title2)
-                Text("Descriptive text goes here.")
+                Text(travel.description)
             }
             .padding()
-
-
-            Spacer()
         }
+        .navigationTitle(travel.destination)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 #Preview {
-    TravelDetail()
+    TravelDetail(travel: travels[0])
 }

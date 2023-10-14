@@ -33,7 +33,7 @@
         "id": 3,
         "destination": "Ubud",
         "category": "Cultural Hub",
-        "city": "Ubud, Bali",
+        "city": "Ubud",
         "province": "Bali",
         "isFeatured": false,
         "isFavorite": true,
@@ -139,7 +139,7 @@
         "destination": "Yogyakarta",
         "category": "Cultural Hub",
         "city": "Yogyakarta",
-        "province": "Yogyakarta",
+        "province": "DIY",
         "isFeatured": false,
         "isFavorite": false,
         "coordinates": {

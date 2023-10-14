@@ -12,7 +12,7 @@ struct TravelList: View {
         NavigationSplitView {
             List(travels) { item in
                 NavigationLink {
-                    TravelDetail()
+                    TravelDetail(travel: item)
                 } label: {
                     TravelRow(travel: item)
                 }

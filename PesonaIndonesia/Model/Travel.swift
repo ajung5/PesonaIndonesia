@@ -16,6 +16,7 @@ struct Travel: Hashable, Codable, Identifiable {
     var destination: String
     var category: String
     var city: String
+    var province: String
     var description: String
     
     private var imageName: String
