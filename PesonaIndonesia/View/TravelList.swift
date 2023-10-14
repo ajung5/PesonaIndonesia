@@ -9,8 +9,18 @@ import SwiftUI
 
 struct TravelList: View {
     var body: some View {
-        List(travels) { item in
-            TravelRow(travel: item)
+        NavigationSplitView {
+            List(travels) { item in
+                NavigationLink {
+                    TravelDetail()
+                } label: {
+                    TravelRow(travel: item)
+                }
+
+            }
+            .navigationTitle("Destinations")
+        } detail: {
+            Text("Select a Destination")
         }
     }
 }
