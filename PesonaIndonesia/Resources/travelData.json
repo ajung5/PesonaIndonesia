@@ -1,0 +1,153 @@
+[
+    {
+        "id": 1,
+        "destination": "Borobudur Temple",
+        "category": "Historical Site",
+        "city": "Magelang",
+        "province": "Central Java",
+        "isFeatured": true,
+        "isFavorite": false,
+        "coordinates": {
+            "latitude": -7.607382,
+            "longitude": 110.203751
+        },
+        "description": "Borobudur Temple is an iconic Buddhist monument in Central Java, known for its intricate carvings and historical significance. It's a must-visit for those interested in cultural heritage.",
+        "imageName": "BorobudurTemple"
+    },
+    {
+        "id": 2,
+        "destination": "Raja Ampat Islands",
+        "category": "Natural Beauty",
+        "city": "Raja Ampat",
+        "province": "West Papua",
+        "isFeatured": true,
+        "isFavorite": true,
+        "coordinates": {
+            "latitude": -0.319328,
+            "longitude": 130.900360
+        },
+        "description": "Raja Ampat is a paradise for divers and nature lovers, offering pristine waters, diverse marine life, and untouched ecosystems. It's a top destination for ecotourism.",
+        "imageName": "rajaAmpat"
+    },
+    {
+        "id": 3,
+        "destination": "Ubud",
+        "category": "Cultural Hub",
+        "city": "Ubud, Bali",
+        "province": "Bali",
+        "isFeatured": false,
+        "isFavorite": true,
+        "coordinates": {
+            "latitude": -8.509967,
+            "longitude": 115.262715
+        },
+        "description": "Ubud, located in the heart of Bali, is known for its lush rice terraces, vibrant arts scene, and cultural attractions. Visitors can immerse themselves in traditional Balinese culture and enjoy the serene surroundings.",
+        "imageName": "ubud"
+    },
+    {
+        "id": 4,
+        "destination": "Bunaken Marine Park",
+        "category": "Marine Sanctuary",
+        "city": "North Sulawesi",
+        "province": "North Sulawesi",
+        "isFeatured": true,
+        "isFavorite": false,
+        "coordinates": {
+            "latitude": 1.657944,
+            "longitude": 124.638855
+        },
+        "description": "Bunaken Marine Park is a snorkeler's and diver's paradise, featuring stunning coral reefs and an abundance of marine life. It's the perfect destination for underwater adventures and natural beauty.",
+        "imageName": "bunaken"
+    },
+    {
+        "id": 5,
+        "destination": "Komodo Island",
+        "category": "Adventure",
+        "city": "Komodo National Park",
+        "province": "East Nusa Tenggara",
+        "isFeatured": false,
+        "isFavorite": true,
+        "coordinates": {
+            "latitude": -8.543980,
+            "longitude": 119.498964
+        },
+        "description": "Komodo Island is home to the famous Komodo dragons and offers an adventure in a unique natural setting. It's an excellent destination for wildlife enthusiasts and nature lovers.",
+        "imageName": "komodoIsland"
+    },
+    {
+        "id": 6,
+        "destination": "Prambanan Temple",
+        "category": "Historical Site",
+        "city": "Yogyakarta",
+        "province": "Yogyakarta",
+        "isFeatured": true,
+        "isFavorite": true,
+        "coordinates": {
+            "latitude": -7.752020,
+            "longitude": 110.491142
+        },
+        "description": "Prambanan Temple is a Hindu temple complex in Yogyakarta, known for its impressive architecture and historical significance. Explore the intricately designed temples and learn about the region's rich history.",
+        "imageName": "prambananTemple"
+    },
+    {
+        "id": 7,
+        "destination": "Tana Toraja",
+        "category": "Cultural Experience",
+        "city": "Tana Toraja",
+        "province": "South Sulawesi",
+        "isFeatured": false,
+        "isFavorite": true,
+        "coordinates": {
+            "latitude": -3.125154,
+            "longitude": 119.977584
+        },
+        "description": "Tana Toraja in South Sulawesi is renowned for its unique burial customs and traditional architecture. Visit the fascinating villages, witness elaborate funeral ceremonies, and immerse yourself in the local culture.",
+        "imageName": "tanaToraja"
+    },
+    {
+        "id": 8,
+        "destination": "Mount Bromo",
+        "category": "Natural Wonder",
+        "city": "Probolinggo",
+        "province": "East Java",
+        "isFeatured": true,
+        "isFavorite": false,
+        "coordinates": {
+            "latitude": -7.941901,
+            "longitude": 112.945206
+        },
+        "description": "Mount Bromo, in East Java, is an active volcano and a must-visit for nature enthusiasts. Experience the surreal beauty of the sunrise over the volcanic landscape and take part in trekking adventures.",
+        "imageName": "bromo"
+    },
+    {
+        "id": 9,
+        "destination": "Tanjung Puting National Park",
+        "category": "Wildlife Sanctuary",
+        "city": "Pangkalan Bun",
+        "province": "Central Kalimantan",
+        "isFeatured": false,
+        "isFavorite": true,
+        "coordinates": {
+            "latitude": -2.744928,
+            "longitude": 111.624550
+        },
+        "description": "Tanjung Puting National Park is a haven for orangutans and other wildlife in Central Kalimantan. Explore the lush rainforests and observe these fascinating primates in their natural habitat.",
+        "imageName": "tanjungPuting"
+    },
+    {
+        "id": 10,
+        "destination": "Yogyakarta",
+        "category": "Cultural Hub",
+        "city": "Yogyakarta",
+        "province": "Yogyakarta",
+        "isFeatured": false,
+        "isFavorite": false,
+        "coordinates": {
+            "latitude": -7.795580,
+            "longitude": 110.369490
+        },
+        "description": "Yogyakarta is a vibrant cultural hub in Java, known for its historic sites, traditional arts, and Javanese traditions. Immerse yourself in the local culture, visit the Sultan's Palace, and explore ancient temples.",
+        "imageName": "yogyakarta"
+    }
+]
+
