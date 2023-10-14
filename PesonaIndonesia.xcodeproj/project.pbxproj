@@ -13,10 +13,6 @@
 		97D3176F2AD989CF0024466D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97D3176E2AD989CF0024466D /* Preview Assets.xcassets */; };
 		97D317762AD98E3A0024466D /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D317752AD98E3A0024466D /* CircleImage.swift */; };
 		97D317782AD98EFF0024466D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D317772AD98EFF0024466D /* MapView.swift */; };
-		97D317822AD994C10024466D /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 97D317812AD994C10024466D /* landmarkData.json */; };
-		97D317842AD995370024466D /* Pesona.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D317832AD995370024466D /* Pesona.swift */; };
-		97D317862AD99D4E0024466D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D317852AD99D4E0024466D /* ModelData.swift */; };
-		97D3178B2AD99E920024466D /* PesonaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D3178A2AD99E920024466D /* PesonaRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,10 +23,6 @@
 		97D3176E2AD989CF0024466D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		97D317752AD98E3A0024466D /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		97D317772AD98EFF0024466D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		97D317812AD994C10024466D /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
-		97D317832AD995370024466D /* Pesona.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pesona.swift; sourceTree = "<group>"; };
-		97D317852AD99D4E0024466D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
-		97D3178A2AD99E920024466D /* PesonaRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesonaRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				97D317692AD989CC0024466D /* ContentView.swift */,
-				97D3178A2AD99E920024466D /* PesonaRow.swift */,
 				97D317752AD98E3A0024466D /* CircleImage.swift */,
 				97D317772AD98EFF0024466D /* MapView.swift */,
 			);
@@ -95,8 +86,6 @@
 		97D317882AD99E330024466D /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				97D317832AD995370024466D /* Pesona.swift */,
-				97D317852AD99D4E0024466D /* ModelData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -104,7 +93,6 @@
 		97D317892AD99E3F0024466D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				97D317812AD994C10024466D /* landmarkData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -169,7 +157,6 @@
 			files = (
 				97D3176F2AD989CF0024466D /* Preview Assets.xcassets in Resources */,
 				97D3176C2AD989CF0024466D /* Assets.xcassets in Resources */,
-				97D317822AD994C10024466D /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,9 +171,6 @@
 				97D317782AD98EFF0024466D /* MapView.swift in Sources */,
 				97D317682AD989CC0024466D /* PesonaIndonesiaApp.swift in Sources */,
 				97D317762AD98E3A0024466D /* CircleImage.swift in Sources */,
-				97D317842AD995370024466D /* Pesona.swift in Sources */,
-				97D3178B2AD99E920024466D /* PesonaRow.swift in Sources */,
-				97D317862AD99D4E0024466D /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
