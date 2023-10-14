@@ -10,6 +10,7 @@
 		97CAE6AE2ADA2BF100A9BED0 /* travelData.json in Resources */ = {isa = PBXBuildFile; fileRef = 97CAE6AD2ADA2BF100A9BED0 /* travelData.json */; };
 		97CAE6B02ADA2C4D00A9BED0 /* Travel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CAE6AF2ADA2C4D00A9BED0 /* Travel.swift */; };
 		97CAE6B22ADA2E1900A9BED0 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CAE6B12ADA2E1900A9BED0 /* ModelData.swift */; };
+		97CAE6B62ADA2EB600A9BED0 /* TravelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CAE6B52ADA2EB600A9BED0 /* TravelRow.swift */; };
 		97D317682AD989CC0024466D /* PesonaIndonesiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D317672AD989CC0024466D /* PesonaIndonesiaApp.swift */; };
 		97D3176A2AD989CC0024466D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D317692AD989CC0024466D /* ContentView.swift */; };
 		97D3176C2AD989CF0024466D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97D3176B2AD989CF0024466D /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		97CAE6AD2ADA2BF100A9BED0 /* travelData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = travelData.json; sourceTree = "<group>"; };
 		97CAE6AF2ADA2C4D00A9BED0 /* Travel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Travel.swift; sourceTree = "<group>"; };
 		97CAE6B12ADA2E1900A9BED0 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		97CAE6B52ADA2EB600A9BED0 /* TravelRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelRow.swift; sourceTree = "<group>"; };
 		97D317642AD989CC0024466D /* PesonaIndonesia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PesonaIndonesia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97D317672AD989CC0024466D /* PesonaIndonesiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesonaIndonesiaApp.swift; sourceTree = "<group>"; };
 		97D317692AD989CC0024466D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 			children = (
 				97D317692AD989CC0024466D /* ContentView.swift */,
 				97D317752AD98E3A0024466D /* CircleImage.swift */,
+				97CAE6B52ADA2EB600A9BED0 /* TravelRow.swift */,
 				97D317772AD98EFF0024466D /* MapView.swift */,
 			);
 			path = View;
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97D3176A2AD989CC0024466D /* ContentView.swift in Sources */,
+				97CAE6B62ADA2EB600A9BED0 /* TravelRow.swift in Sources */,
 				97D317782AD98EFF0024466D /* MapView.swift in Sources */,
 				97D317682AD989CC0024466D /* PesonaIndonesiaApp.swift in Sources */,
 				97CAE6B02ADA2C4D00A9BED0 /* Travel.swift in Sources */,
